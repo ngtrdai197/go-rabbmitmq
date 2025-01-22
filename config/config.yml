@@ -1,0 +1,18 @@
+api_info:
+  service: account-service
+  version: 1.0.0
+  version_path: v1
+  profile_listen: :8080
+  setting_listen: :8080
+kafka:
+  brokers:
+    - "xxx"
+    - "xxx"
+  enable: true
+  partition: 1
+  partitioner: "hash"
+  sasl_producer_username: "xxx"
+  sasl_producer_password: "xxx"
+  sasl_consumer_username: "xxx"
+  sasl_consumer_password: "xxx"
+  user_profile_group_id: "go_clean_architecture.user_profile.group"
